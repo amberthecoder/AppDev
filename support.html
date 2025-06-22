@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - WorkoutDay运动日</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .support-hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 120px 0 80px;
+            text-align: center;
+        }
+
+        .support-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .support-hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .support-content {
+            padding: 80px 0;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-section {
+            margin-bottom: 60px;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #1e293b;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            border: 1px solid #f1f5f9;
+        }
+
+        .faq-question {
+            padding: 1.5rem;
+            background: #f8fafc;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: #1e293b;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: #e2e8f0;
+        }
+
+        .faq-question i {
+            transition: transform 0.3s ease;
+            color: #64748b;
+        }
+
+        .faq-question.active i {
+            transform: rotate(180deg);
+            color: #2563eb;
+        }
+
+        .faq-answer {
+            padding: 0 1.5rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            background: white;
+            color: #64748b;
+            line-height: 1.6;
+        }
+
+        .faq-answer.active {
+            padding: 1.5rem;
+            max-height: 200px;
+        }
+
+        .contact-section {
+            background: #f8fafc;
+            padding: 60px 0;
+            margin-top: 60px;
+            border-radius: 12px;
+        }
+
+        .contact-content {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-content h2 {
+            color: #1e293b;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-content p {
+            color: #64748b;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-email {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .contact-email a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .contact-email a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .support-hero h1 {
+                font-size: 2rem;
+            }
+
+            .support-hero p {
+                font-size: 1rem;
+            }
+
+            .faq-section h2 {
+                font-size: 2rem;
+            }
+
+            .contact-content h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-dumbbell"></i>
+                <span>WorkoutDay运动日</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="support.html" class="nav-link">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a href="privacy.html" class="nav-link">Privacy</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Support Hero -->
+    <section class="support-hero">
+        <div class="container">
+            <h1>Support Center</h1>
+            <p>Need help with WorkoutDay运动日? Find answers to common questions and get in touch with us.</p>
+        </div>
+    </section>
+
+    <!-- Support Content -->
+    <section class="support-content">
+        <div class="container">
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I add a new workout?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Tap the "+" button on the main screen. Select your workout type, set the duration, and add any notes. Your workout will be saved to your calendar automatically.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I use the timer and stopwatch?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Find the timer and stopwatch in the main menu. For the timer, set your desired duration and tap start. For the stopwatch, simply tap start to begin counting. Both can be paused and reset as needed.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Can I view my workout history?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! Tap the calendar icon to view your workout history. Navigate through different months and tap on any date to see your completed workouts.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I edit or delete a workout?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Tap on any workout in your calendar view. You'll see options to edit the details or delete the workout entirely.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Is my data backed up?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Your workout data is stored locally on your device. We recommend regularly backing up your device to iCloud to ensure your data is safe.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How do I reset the app settings?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Go to Settings in the app, scroll down to find "Reset App Settings" and tap it. This will restore all settings to their default values.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2>Still Need Help?</h2>
+                <p>Can't find what you're looking for? Send us an email and we'll get back to you as soon as possible.</p>
+                <div class="contact-email">
+                    <a href="mailto:amber.jiaqi.fu@gmail.com">amber.jiaqi.fu@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>WorkoutDay运动日</span>
+                    </div>
+                    <p>Simple workout tracking for everyone.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="support.html">Support</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: amber.jiaqi.fu@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WorkoutDay运动日. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // FAQ Toggle Functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = question.classList.contains('active');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-question').forEach(q => {
+                    q.classList.remove('active');
+                    q.nextElementSibling.classList.remove('active');
+                });
+                
+                // Toggle current item
+                if (!isActive) {
+                    question.classList.add('active');
+                    answer.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
