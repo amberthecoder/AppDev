@@ -44,7 +44,7 @@ body {
     align-items: center;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #dc2626;
+    color: #F73C47;
 }
 
 .nav-logo i {
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #dc2626;
+    color: #F73C47;
 }
 
 .hamburger {
@@ -86,7 +86,7 @@ body {
 /* Hero Section */
 .hero {
     padding: 120px 0 80px;
-    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+    background: linear-gradient(135deg, #F73C47 0%, #e63946 100%);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -135,12 +135,12 @@ body {
 }
 
 .btn-primary {
-    background: #dc2626;
+    background: #F73C47;
     color: white;
 }
 
 .btn-primary:hover {
-    background: #b91c1c;
+    background: #e63946;
     transform: translateY(-2px);
 }
 
@@ -152,7 +152,7 @@ body {
 
 .btn-secondary:hover {
     background: white;
-    color: #dc2626;
+    color: #F73C47;
 }
 
 .btn-large {
@@ -227,7 +227,7 @@ body {
 .feature-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+    background: linear-gradient(135deg, #F73C47 0%, #e63946 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -294,12 +294,12 @@ body {
 
 .footer-logo i {
     margin-right: 0.5rem;
-    color: #dc2626;
+    color: #F73C47;
 }
 
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #dc2626;
+    color: #F73C47;
 }
 
 .footer-section ul {
@@ -317,7 +317,7 @@ body {
 }
 
 .footer-section a:hover {
-    color: #dc2626;
+    color: #F73C47;
 }
 
 .footer-bottom {
